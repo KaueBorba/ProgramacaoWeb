@@ -1,0 +1,14 @@
+Qual é o jeito recomendado de usar CSS quando o site tem várias páginas: interno ou externo?
+Externo: um só arquivo serve para todas as páginas.
+
+Qual a diferença entre class e id?
+A class pode se repetir em vários elementos e um elemento pode ter várias (.nome no CSS). O id é único na página (#nome no CSS) e tem prioridade maior.
+
+Como escrevo no CSS um seletor para a class card e para o id menu?
+.card { } e #menu { }.
+
+Se um elemento é pintado por p, .texto e #principal, qual regra vence?
+A do id (#principal). Ordem de força: inline > id > class > elemento.
+
+O que acontece quando duas regras de mesma força pintam o mesmo elemento?
+Vence a que foi escrita por último (cascata)
